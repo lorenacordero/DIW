@@ -1,0 +1,35 @@
+<!--Formulario Log In-->
+<html>
+<head>
+    <title>Log in</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body id="index">
+	<center>
+   <div class="headiv">
+	<h3>¡Registrate!</h3>
+   </div>
+
+<div id="formbox">
+<form action="registro.php" method="POST" id="form">
+
+<label>Nombre:</label><br>
+	<input type="varchar" class="forminput" name="nombre" maxlength='25' required/> <br>
+ 
+<label>Email:</label><br>
+	<input type="varchar" class="forminput" name="email" maxlength='255' required/> <br>
+ 
+<label>Password:</label><br>
+    <input type="password" class="forminput" name="password" maxlength="30" required/> <br> 
+		
+<button type="submit" class="buttonform">Enviar</button>
+</form>
+ </div>
+    
+ <p id="paraform">¿Ya estás registrado?
+   <strong><a id="linkform" href="acceso_usuarios.php">Pulsa aquí</a></strong> </p><br>
+	</center>
+</body>
+</html>
+	
